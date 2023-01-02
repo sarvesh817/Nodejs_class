@@ -23,7 +23,7 @@ app.get('/profile',(req,res)=>{
     var data={
         name:"sarvesh",
         mobile:"998988433",
-        skills:['php','jquery','wordpress'] 
+        skills:['php','jquery','wordpress','javascript']   
     }
     res.render("profile",{data});                 
 }); 
