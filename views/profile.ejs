@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Profile page</title>
+</head>
+<body>
+    <h1>Welcome, <%=data.name%></h1>      
+    <label> <%=data.mobile%></label>      
+
+    <!-- how to run loop-->
+<ul>
+    <% data.skills.forEach((item) => { %>
+       <li> <%= item %> </li>
+    <% }) %>
+
+    </ul>
+</body> 
+</html>   

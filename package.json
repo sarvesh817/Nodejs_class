@@ -1,0 +1,22 @@
+{
+  "name": "node-sidhu",
+  "version": "1.0.0",
+  "description": "node js tut",
+  "main": "first.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "coding",
+    "on",
+    "nodejs"
+  ],
+  "author": "sarvesh kumar",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "simple-node-logger": "^21.8.12"
+  }
+}
