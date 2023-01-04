@@ -28,6 +28,13 @@ app.get('/profile',(req,res)=>{
     res.render("profile",{data});                 
 }); 
 
+
+//Login page
+app.get('/login',(req,res)=>{
+    res.render("login");  
+});
+
+
 app.listen(5001);
 
 
