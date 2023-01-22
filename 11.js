@@ -9,7 +9,7 @@
 //Imp:-when we executed a code then our each function call stack under register 
 //and mapping which function will call (first or last) before executing.
 
-//in background mail is called for even we are executing a single  line code that will run inside the main function.
+//in background main() is called for even we are executing a single  line code that will run inside the main function.
 
 //if you have called other function like console.log so that will register in the call stack but after main() like log()
 

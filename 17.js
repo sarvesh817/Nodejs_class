@@ -35,6 +35,10 @@ app.get('/users',(req,res)=>{
     res.send("Welcome to Users page");        
 });
 
+app.get('/about',(req,res)=>{
+    res.send("Welcome to about page");           
+});
+
 /* Route-level Middleware */
 //firstly :- remove app.use(req_filter);  and directly pass like below.
 
@@ -52,3 +56,15 @@ app.listen(5002);
 //3)error- handling
 //4)built in
 //5)third party
+
+
+
+/* for group */
+//make instance of route name that same name will use when you define the routes else not will use like app.get ok
+//1)const route=express.Router();
+//2)route.get('/users_get',(req,res)=>{
+   // res.send("Welcome to Users get page");          
+//});
+//3)app.use('/',route);
+
+/* Also you can use middleware by making separate file of middleware bcz it's good practice */  

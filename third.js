@@ -27,7 +27,7 @@ fs.readFile('./hello.txt','', function (err, html) {
 
     http.createServer(function(request, response) {  
         response.writeHeader(200, {"Content-Type": "text/html"});  
-        response.write(html);  
+        response.write("Haribol");  
         response.end();  
     }).listen(PORT);
 });
